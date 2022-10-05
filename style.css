@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Serif&display=swap');
+
+
+.header{
+    
+    text-align: center;
+    background-color:#6c6c6c;
+    font-size: 2rem;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    padding-left:1rem;
+    
+}
+.button{
+    text-align:center;
+    margin: auto;
+    margin-bottom:1rem ;
+    color: #6c6c6c;
+    max-width: 90rem;
+    
+}
+#btn-translate{
+    
+    background-color:#6c6c6c;
+    border: none;
+    max-width:200px ;
+    width: 13rem;
+    height: 3rem;
+    font-size: 1.2rem;
+    margin-bottom: 4rem;
+    
+}
+
+.output{
+    font-size: larger;
+    text-align: center;
+    margin-right: 20.5rem;
+    margin-top: 5rem;
+    margin: auto;
+}
+
+.footer-header{
+    text-align: center;
+    margin-top: 10rem;
+    font-size: 2rem;
+    
+}
+.footer{
+    text-align: center;
+    margin-top: 1rem;
+    font-size: 1.3rem;
+    text-indent: 15rem;
+    margin-right: 15rem;
+    
+
+}
+.foot-footer{
+    background-color: #6c6c6c;
+    margin: auto;
+    text-align: center;
+    font-size: 3rem;
+}

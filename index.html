@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title"> <h1 class="header">Valyrian translator</h1></title>
+    <link href="style.css" rel="stylesheet">
+   <div class="textarea">
+   <style>
+    textarea{
+       
+        width:28rem;
+        height:17vh;
+        display:block;
+       margin-top: 3rem;
+        border-width:3px ;
+        margin: auto;
+        
+    }
+    #output{
+        border:1px solid rgb(0, 0, 0);
+        height:5vh;
+        width:27rem;
+        border-width: 3px;
+        margin:1rem;
+        padding:1rem;
+        margin: auto;
+        border-style:var();
+    }
+   </style>
+   </div>
+</head>
+<body>
+   
+    <textarea id="txt-input" placeholder="Put your sentence in english here and we will convert it to Valyrian"></textarea>
+    <div class="button">
+<button id="btn-translate">Translate to Valyrian</button></div>
+<div class="output">Here is your translation 👇</div>
+<div id="output"></div>
+
+
+<footer class="foot-footer">
+    <div class="footer-header">About</div>
+   <div class="footer"> Are you a fan of Game of thrones? The Valyrian languages is a fictional language family in the "A Song of Ice and Fire" a series of fantasy novels by George R. R. Martin, and in their television adaptation Game of Thrones and later House of the Dragon.</div>
+</footer>
+<script src="app.js" type="text/javascript"></script>
+</body>
+</html>
